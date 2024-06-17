@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "refinedstorage_trinkets_integration",
+  "version": "${version}",
+  "name": "Refined Storage - Trinkets Integration",
+  "description": "Trinkets integration for Refined Storage.",
+  "authors": [
+    "Refined Mods"
+  ],
+  "contact": {
+    "sources": "https://github.com/refinedmods/refinedstorage-trinkets-integration",
+    "issues": "https://github.com/refinedmods/refinedstorage-trinkets-integration/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "refinedstorage_plugin": [
+      "com.refinedmods.refinedstorage.trinkets.TrinketsRefinedStoragePlugin"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discordapp.com/invite/VYzsydb"
+      },
+      "parent": "refinedstorage2"
+    }
+  },
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric-api": "*",
+    "minecraft": "~1.20.4",
+    "refinedstorage2": "*",
+    "trinkets": ">=3.8",
+    "java": ">=17"
+  }
+}
