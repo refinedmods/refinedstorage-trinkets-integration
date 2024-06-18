@@ -7,6 +7,12 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.0] - 2024-06-18
+
 ### Added
 
 -   Initial release.
+
+[Unreleased]: https://github.com/refinedmods/refinedstorage-trinkets-integration/compare/v0.1.0...HEAD
+
+[0.1.0]: https://github.com/refinedmods/refinedstorage-trinkets-integration/compare/d7be9c1c8ca55cdff8c09b314e1f0f423c9462d3...v0.1.0
