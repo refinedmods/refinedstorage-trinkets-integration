@@ -1,11 +1,12 @@
 package com.refinedmods.refinedstorage.trinkets;
 
+import com.refinedmods.refinedstorage.platform.api.support.slotreference.SlotReference;
+import com.refinedmods.refinedstorage.platform.api.support.slotreference.SlotReferenceProvider;
+
 import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
-import com.refinedmods.refinedstorage2.platform.api.support.network.bounditem.SlotReference;
-import com.refinedmods.refinedstorage2.platform.api.support.network.bounditem.SlotReferenceProvider;
 import dev.emi.trinkets.api.TrinketsApi;
 import net.minecraft.util.Tuple;
 import net.minecraft.world.entity.player.Player;

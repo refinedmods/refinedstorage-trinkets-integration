@@ -7,6 +7,11 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Changed
+
+-   Support for Refined Storage v2.0.0-milestone.4.4.
+-   The Portable Grid can now also be equipped as a trinket.
+
 ## [0.1.0] - 2024-06-18
 
 ### Added
