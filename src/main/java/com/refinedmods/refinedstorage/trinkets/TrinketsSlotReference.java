@@ -1,35 +1,18 @@
 package com.refinedmods.refinedstorage.trinkets;
 
+import com.refinedmods.refinedstorage.platform.api.support.slotreference.SlotReference;
+import com.refinedmods.refinedstorage.platform.api.support.slotreference.SlotReferenceFactory;
+
 import java.util.Optional;
 
-import com.refinedmods.refinedstorage2.platform.api.support.network.bounditem.SlotReference;
-import com.refinedmods.refinedstorage2.platform.api.support.network.bounditem.SlotReferenceFactory;
 import dev.emi.trinkets.api.TrinketsApi;
-import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 
-class TrinketsSlotReference implements SlotReference {
-    private final String groupName;
-    private final String slotName;
-    private final int index;
-
-    TrinketsSlotReference(final String groupName, final String slotName, final int index) {
-        this.groupName = groupName;
-        this.slotName = slotName;
-        this.index = index;
-    }
-
+record TrinketsSlotReference(String groupName, String slotName, int index) implements SlotReference {
     @Override
     public boolean isDisabledSlot(final int playerSlotIndex) {
         return false;
-    }
-
-    @Override
-    public void writeToBuffer(final FriendlyByteBuf buf) {
-        buf.writeUtf(groupName);
-        buf.writeUtf(slotName);
-        buf.writeInt(index);
     }
 
     @Override
