@@ -7,6 +7,12 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.2.1] - 2024-07-26
+
+### Fixed
+
+-   Support for Refined Storage v2.0.0-milestone.4.5.
+
 ## [0.2.0] - 2024-07-20
 
 ### Changed
@@ -20,7 +26,9 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 -   Initial release.
 
-[Unreleased]: https://github.com/refinedmods/refinedstorage-trinkets-integration/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/refinedmods/refinedstorage-trinkets-integration/compare/v0.2.1...HEAD
+
+[0.2.1]: https://github.com/refinedmods/refinedstorage-trinkets-integration/compare/v0.2.0...v0.2.1
 
 [0.2.0]: https://github.com/refinedmods/refinedstorage-trinkets-integration/compare/v0.1.0...v0.2.0
 

@@ -45,7 +45,7 @@ val trinketsVersion: String by project
 val cardinalComponentsVersion: String by project
 
 dependencies {
-    modApi("com.refinedmods.refinedstorage:refinedstorage-platform-fabric:${refinedstorageVersion}")
+    modApi("com.refinedmods.refinedstorage:refinedstorage-fabric:${refinedstorageVersion}")
     modApi("dev.emi:trinkets:${trinketsVersion}")
     modApi("dev.onyxstudios.cardinal-components-api:cardinal-components-base:${cardinalComponentsVersion}")
     modApi("dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${cardinalComponentsVersion}")

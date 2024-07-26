@@ -1,7 +1,7 @@
 package com.refinedmods.refinedstorage.trinkets;
 
-import com.refinedmods.refinedstorage.platform.api.support.slotreference.SlotReference;
-import com.refinedmods.refinedstorage.platform.api.support.slotreference.SlotReferenceProvider;
+import com.refinedmods.refinedstorage.common.api.support.slotreference.SlotReference;
+import com.refinedmods.refinedstorage.common.api.support.slotreference.SlotReferenceProvider;
 
 import java.util.Collections;
 import java.util.List;
