@@ -31,6 +31,8 @@ refinedarchitect {
     sonarQube("refinedmods_refinedstorage-trinkets-integration", "refinedmods")
     publishing {
         maven = true
+        curseForge = "1230748"
+        modrinth = "EkNHO3Uw"
     }
 }
 
