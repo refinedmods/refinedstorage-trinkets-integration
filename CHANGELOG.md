@@ -7,6 +7,10 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+
+-   Support for the Wireless Autocrafting Monitor.
+
 ## [1.0.0] - 2025-03-28
 
 ### Fixed
